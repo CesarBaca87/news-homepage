@@ -2,22 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- PON UN FAVICON!!! -->
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>News homepage</title>
   </head>
   <body>
-    <div class="card">
-      <h1 class="title">Titulo Principal</h1>
-      <p class="paragraph">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nobis
-        eos magnam earum numquam dignissimos eveniet asperiores a, minus neque
-        quibusdam odio est in eaque tempora consequatur veniam similique libero?
-      </p>
-      <a class="card__button" href="#">Pincha aquí</a>
-    </div>
+    <header class="header">
+      <sectiion class="header__top">
+        <div class="header__top--container">
+          <img src="./assets/images/logo.svg" alt="logo W">
+          <img src="./assets/images/icon-menu.svg" alt="icon menu">
+        </div>
+      </sectiion>
+
+    <article class="header__card">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="image geometry">
+      <h1 class="header__title">The Bright Future of Web 3.0?</h1>
+      <p class="header__text">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the
+      people. But is it really fulfilling its promise?</p>
+      <button class="button">READ MORE</button>
+    </article>
+    </header>
+    <main class="main">
+      <section class="new__container">
+        <span class="new__title">New</span>
+        <article class="new__notice--container-1">
+          <span class="new__notice--title">Hydrogen VS Electric Cars</span>
+          <p class="new__notice--text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <div class="divider"></div>
+        </article>
+
+        <article class="new__notice--container-2">
+          <span class="new__notice--title">Hydrogen VS Electric Cars</span>
+          <p class="new__notice--text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <div class="divider"></div>
+        </article>
+
+        <article class="new__notice--container-3">
+          <span class="new__notice--title">Hydrogen VS Electric Cars</span>
+          <p class="new__notice--text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <div class="divider"></div>
+        </article>
+      </section>
+      <section class="notice">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="image retro pcs">
+        <div class="notice__asside">
+          <span class="notice__asside--number">01</span>
+          <span class="notice__asside--title">Reviving Retro PCs</span>
+          <p class="notice__asside--text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </section>
+
+      <section class="notice">
+        <img src="./assets/images/image-top-laptops.jpg" alt="image top laptops">
+        <div class="notice__asside">
+          <span class="notice__asside--number">02</span>
+          <span class="notice__asside--title">Top 10 Laptops of 2022</span>
+          <p class="notice__asside--text">Our best picks for various needs and budgets.</p>
+        </div>
+      </section>
+
+      <section class="notice">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="image gaming growth">
+        <div class="notice__asside">
+          <span class="notice__asside--number">03</span>
+          <span class="notice__asside--title">The Growth of Gaming</span>
+          <p class="notice__asside--text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </section>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
